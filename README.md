@@ -24,9 +24,6 @@ Now you can see the slideshow by opening your browser at [localhost:8000](http:/
 
 ## Resources
 
-A list of useful resources and links if you're looking to build a game using HTML5
-
-
 ### Frameworks & Game Engines
 
 A list of HTML5 game frameworks, with brief descriptions and feature sets
