@@ -69,44 +69,62 @@ Open-source game engine with support for canvas
 ### Physics Engines
 
 #### [Box2DWeb](https://code.google.com/p/box2dweb/)
+
 Self-contained JavaScript Box2DFlash 2.1a ported from ActionScript with a custom compiler.
+
 My personal choice when it comes to Box2D ports.
 
 #### [Box2DJS](http://box2d-js.sourceforge.net/)
+
 Box2DFlashAS3 1.4.3.1 ported to JavaScript in automated fashion.
+
 Modular, but ported from an old version of Box2D
 
 #### [Ammo.js](https://github.com/kripken/ammo.js/)
+
 A [Bullet]](http://bulletphysics.org/wordpress/) automated port from C++ to JavaScript.
+
 Ideal for 3D physics
 
 ### [Cannon.js](https://github.com/schteppe/cannon.js)
+
 A JavaScript native physics engine inspired by Ammo.js and Three.js.
+
 Ideal for 3D games, although still at an early stage.
 
 #### [Verlet-js](http://subprotocol.com/verlet-js/)
+
 A light-weight JavaScript physics engine.
+
 One of the few native JavaScript physics engines, ideal for 2D physics.
 
 ### Rendering Engines & Other Libraries
 
 #### [Pixi](https://github.com/GoodBoyDigital/pixi.js/)
+
 Open-source highly-optimised and performant 2D rendering library inclusive on WebGL and Canvas renderers and a really simple unified API.
 
 #### [CreateJS](http://www.createjs.com/):
+
 A suite of JavaScript libraries to take care of rendering and animating with Canvas and DOM, handle assets loading and audio.
 
 #### [Three.js](http://threejs.org/)
+
 Open-source library for 3D rendering that takes the pain away from WebGL.
+
 Easy-to-use, widely adopted, well documented and rich of examples.
 
 
 ### Utilities
 
 #### [Tiled](http://www.mapeditor.org/)
+
 A free map editor, flexible and easy to use, with support for orthogonal and isometric maps.
+
 Great for top-down games, platformers, isometric games and more.
 
 #### [ShoeBox](http://renderhjs.net/shoebox/)
+
 A free Adobe Air app offering a variety of small tools for game development.
+
 Includes utilities to handle spritesheets, tilemaps, bitmap fonts, stretchable sprites, split and export PSD files and more.
