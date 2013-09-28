@@ -1,5 +1,6 @@
 
-# LXJS 2013 slides - A web dive into game development
+# LXJS 2013 slides
+> ## A web dive into game development
 
 This repo contains the slides for my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
 
