@@ -10,9 +10,9 @@ The slideshow is built in HTML using [Reveal.js](http://lab.hakim.se/reveal-js/#
 
 ## FlickBlaster
 
-FlickBlaster - the game I built for the demo - is contained in a different repo, and its codebase is fully documented and commented for better reading and understanding.
+Don't forget to check out [FlickBlaster](https://github.com/tancredi/flickblaster-game) - the game developed for the demo.
 
-[Check out flickblaster-game repo »](https://github.com/tancredi/flickblaster-game)
+Its codebase is fully documented and commented for better reading and understanding.
 
 
 ## Resources
