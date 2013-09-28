@@ -5,10 +5,14 @@
 
 This repo contains the slides of my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
 
+The slideshow is built in HTML using [Reveal.js](http://lab.hakim.se/reveal-js/#/).
 
-#### Slides
 
-The slides are built using [Reveal.js](http://lab.hakim.se/reveal-js/#/) and need a few steps to run.
+## FlickBlaster
+
+FlickBlaster - the game I built for the demo - is contained in a different repo, and its codebase is fully documented and commented for better reading and understanding.
+
+[Check out flickblaster-game repo »](https://github.com/tancredi/flickblaster-game)
 
 
 ## Resources
