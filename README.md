@@ -3,6 +3,7 @@
 
 This repo contains the slides for my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
 
+
 ## Intructions
 
 The slides are built using [Reveal.js](http://lab.hakim.se/reveal-js/#/) and need a few steps to run
@@ -11,7 +12,8 @@ The slides are built using [Reveal.js](http://lab.hakim.se/reveal-js/#/) and nee
 
 * **[Grunt](gruntjs.com)** - `sudo npm install -g grunt-cli`
 
-## Setup
+
+## Slides instructions
 
 1. Clone the repo - `git clone git@github.com:tancredi/lxjs-slides.git`
 2. `cd lxjs-slides`
@@ -19,15 +21,21 @@ The slides are built using [Reveal.js](http://lab.hakim.se/reveal-js/#/) and nee
 
 Now you can see the slideshow by opening your browser at [localhost:8000](http://localhost:8000)
 
+
 ## Resources
+
+A list of useful resources and links if you're looking to build a game using HTML5
+
 
 ### Frameworks & Game Engines
 
 A list of HTML5 game frameworks, with brief descriptions and feature sets
 
 #### [ImpactJS](http://impactjs.com/)
+
 One of the most popular game frameworks, really simple to setup and use - perfect for 2D platformers.
 Costs $99 and includes the Weltmeister level editor.
+
 It has a large community and selection of plugins, extensions, etc..
 
 * Features a level editor
@@ -37,8 +45,11 @@ It has a large community and selection of plugins, extensions, etc..
 * Renders with Canvas
 
 #### [Turbulenz](https://turbulenz.com/)
+
 Free and open-source framework, especially great for 3D games, inclusive of HTML5 SDK and easy-to-use social features.
+
 Hosts and publishes your game in a developer-friendly environment and allows to easily monetise your game.
+
 It also include a large variety of tools for pretty much anything you need (Physics, sound, etc..)
 
 * Complete abstraction between game logic and rendering engine
@@ -48,7 +59,9 @@ It also include a large variety of tools for pretty much anything you need (Phys
 * Renders using Canvas or WebGL
 
 #### [Quintus](http://html5quintus.com/)
+
 Open-source, modular, light-weight and easy-to-use engine for 2D HTML5 games.
+
 Renders using Canvas.
 
 * Easy to use
@@ -57,6 +70,7 @@ Renders using Canvas.
 * Renders using Canvas
 
 #### [Phaser](http://www.photonstorm.com/phaser)
+
 Open-source game engine with support for canvas
 
 * Develop using Javascript or Typescript
