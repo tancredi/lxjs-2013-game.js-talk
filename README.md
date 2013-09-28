@@ -3,7 +3,7 @@
 
 ### Talk slides and resources
 
-> This repo contains the slides of my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
+This repo contains the slides of my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
 
 
 #### Slides
