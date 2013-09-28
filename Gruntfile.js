@@ -41,14 +41,7 @@ module.exports = function(grunt) {
 		sass: {
 			main: {
 				files: {
-					'css/theme/default.css': 'css/theme/source/default.scss',
-					'css/theme/beige.css': 'css/theme/source/beige.scss',
-					'css/theme/night.css': 'css/theme/source/night.scss',
-					'css/theme/serif.css': 'css/theme/source/serif.scss',
-					'css/theme/simple.css': 'css/theme/source/simple.scss',
-					'css/theme/sky.css': 'css/theme/source/sky.scss',
-					'css/theme/moon.css': 'css/theme/source/moon.scss',
-					'css/theme/solarized.css': 'css/theme/source/solarized.scss'
+					'css/theme/night-custom.css': 'css/theme/source/night-custom.scss'
 				}
 			}
 		},
@@ -96,10 +89,6 @@ module.exports = function(grunt) {
 		},
 
 		watch: {
-			main: {
-				files: [ 'Gruntfile.js', 'js/reveal.js', 'css/reveal.css' ],
-				tasks: 'default'
-			},
 			theme: {
 				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
 				tasks: 'themes'
@@ -118,19 +107,13 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
 	grunt.loadNpmTasks( 'grunt-zip' );
 
-	// Default task
-	grunt.registerTask( 'default', [ 'jshint', 'cssmin', 'uglify', 'qunit' ] );
+	// Serve presentation locally
+	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
 
 	// Theme task
 	grunt.registerTask( 'themes', [ 'sass' ] );
 
 	// Package presentation to archive
 	grunt.registerTask( 'package', [ 'default', 'zip' ] );
-
-	// Serve presentation locally
-	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
-
-	// Run tests
-	grunt.registerTask( 'test', [ 'jshint', 'qunit' ] );
 
 };
