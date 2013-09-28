@@ -3,19 +3,12 @@
 
 ### Talk slides and resources
 
-> This repo contains the slides for my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
+> This repo contains the slides of my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
 
 
-#### Slides intructions
+#### Slides
 
-The slides are built using [Reveal.js](http://lab.hakim.se/reveal-js/#/) and need a few steps to run
-
-1. Clone the repo - `git clone git@github.com:tancredi/lxjs-slides.git`
-2. Open the slides directory - `cd lxjs-slides`
-3. If you don't have [Grunt](gruntjs.com) installed, run `sudo npm install -g grunt-cli`
-4. Run the server - `grunt serve`
-
-Now you can see the slideshow by opening your browser at [localhost:8000](http://localhost:8000)
+The slides are built using [Reveal.js](http://lab.hakim.se/reveal-js/#/) and need a few steps to run.
 
 
 ## Resources
