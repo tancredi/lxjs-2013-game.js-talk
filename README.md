@@ -11,7 +11,7 @@
 The slides are built using [Reveal.js](http://lab.hakim.se/reveal-js/#/) and need a few steps to run
 
 1. Clone the repo - `git clone git@github.com:tancredi/lxjs-slides.git`
-2. `cd lxjs-slides`
+2. Open the slides directory - `cd lxjs-slides`
 3. If you don't have [Grunt](gruntjs.com) installed, run `sudo npm install -g grunt-cli`
 4. Run the server - `grunt serve`
 
