@@ -157,3 +157,8 @@ body {
   background: url("../../img/demoguy.png") center top no-repeat;
   font-weight: bold;
   font-family: "Montserrat", Arial, sans-serif; }
+.reveal section div.half {
+  width: 50%;
+  float: left; }
+.reveal section .clear {
+  clear: both; }

@@ -5,14 +5,16 @@
 
 This repo contains the slides of my LXJS 2013 talk and a list of useful resources (Frameworks, tools, etc..) for HTML5 game development.
 
-The slideshow is built in HTML using [Reveal.js](http://lab.hakim.se/reveal-js/#/).
+The slideshow is built in HTML using [Reveal.js](http://lab.hakim.se/reveal-js/#/), and you can find it in `slides`.
+
+Also, you can view it [here](http://tancredi.github.io/lxjs-2013-game.js-talk)
 
 
 ## FlickBlaster
 
 Don't forget to check out [FlickBlaster](https://github.com/tancredi/flickblaster-game) - the game developed for the demo.
 
-Its codebase is fully documented and commented for better reading and understanding.
+Its code base is fully documented and commented for better reading and understanding.
 
 
 ## Resources
@@ -36,7 +38,7 @@ It has a large community and selection of plugins, extensions, etc..
 
 #### [Turbulenz](https://turbulenz.com/)
 
-Free and open-source framework, especially great for 3D games, inclusive of HTML5 SDK and easy-to-use social features.
+Open-source framework, especially great for 3D games, inclusive of HTML5 SDK and easy-to-use social features.
 
 Hosts and publishes your game in a developer-friendly environment and allows to easily monetise your game.
 
@@ -90,7 +92,7 @@ A [Bullet]](http://bulletphysics.org/wordpress/) automated port from C++ to Java
 
 Ideal for 3D physics
 
-### [Cannon.js](https://github.com/schteppe/cannon.js)
+#### [Cannon.js](https://github.com/schteppe/cannon.js)
 
 A JavaScript native physics engine inspired by Ammo.js and Three.js.
 
@@ -101,6 +103,7 @@ Ideal for 3D games, although still at an early stage.
 A light-weight JavaScript physics engine.
 
 One of the few native JavaScript physics engines, ideal for 2D physics.
+
 
 ### Rendering Engines & Other Libraries
 

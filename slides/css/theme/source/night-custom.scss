@@ -75,4 +75,13 @@ $mainFontSize: 30px;
 		font-weight: bold;
 		font-family: $headingFont;
 	}
+
+	div.half {
+		width: 50%;
+		float: left;
+	}
+
+	.clear {
+		clear: both;
+	}
 }
