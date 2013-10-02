@@ -10,16 +10,7 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-
-// Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
-@import url(http://fonts.googleapis.com/css?family=VT323);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import "fonts";
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #111;
